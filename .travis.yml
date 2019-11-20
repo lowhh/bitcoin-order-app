@@ -8,7 +8,7 @@ sudo: required
 notifications:
   email:
     recipients:
-    	- adrian.lowhh@gmail.com
+     - adrian.lowhh@gmail.com
     on_success: always
     on_failure: always
 branches:
@@ -26,6 +26,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: dist/bitcoin
-  edge:true
+  edge: true
   on:
     branch: development
